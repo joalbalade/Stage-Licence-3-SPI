@@ -1,0 +1,110 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{animate}
+\usepackage{subfigure,color,soul}
+
+\usepackage[round]{natbib}
+\usepackage{array, multirow, makecell}
+\setcellgapes{1pt}
+\makegapedcells
+\newcolumntype{R}[1]{>{\centering\arraybackslash }b{#1}}
+\newcolumntype{L}[1]{>{\centering\arraybackslash }b{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+
+\usepackage{stmaryrd}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{xcolor}         % pour d\'efinir plus de couleurs
+\usepackage{animate}
+\usepackage{ulem}
+\usepackage{url}
+%\usepackage{multimedia}
+\usepackage{geometry}
+
+\geometry{hmargin=2cm,vmargin=2cm}
+\usepackage{amssymb}
+\usepackage[english,french]{babel}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{blindtext}
+
+\newcommand{\itemmarker}{{\small\textbullet}}
+\newcommand{\ratingmarker}{\faCircle}
+
+\numberwithin{figure}{section} % Commande de BibiFlo pour faire des trucs super géniaux qui pètent leur race dans LOF
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------%
+
+\begin{document}
+
+
+
+
+    \begin{titlepage}
+         \begin{center}
+            \Huge{\textbf{Manuel d'Utilisation :}}
+            
+            \Huge{\textbf{Montage et programmation d'une main robotisée}}
+            
+            \vspace{2cm}
+                \LARGE{\textbf{Albaladejo Joris}}
+                
+                \vspace{2cm}
+                \Large {\textbf{ Association 1901 \textit{Robots !}}}
+                
+                \vspace{1cm}
+                \Large{\textbf{Janvier 2021\\
+                -\\
+                Février 2021\\
+                }}
+                
+                \vspace{3cm}
+                \includegraphics{Images_main/logo_asso.png}
+        \end{center}
+    \end{titlepage}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------%
+
+\newpage
+
+\thispagestyle{empty}
+        \tableofcontents
+        
+        \newpage
+        \listoffigures
+        
+
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------%
+
+\newpage
+
+\input{Déroulé/Jour_1/Jour1}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------%
+
+\input{Déroulé/Jour_2/Jour2}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------%
+
+\input{Déroulé/Jour_3/Jour3}
+
+%---------------------------------------------------------------------------------------------------------------------------------------------------%
+
+%provisoire
+\newpage
+
+\input{Déroulé/Jour_4/Jour4}
+
+
+
+\end{document}
